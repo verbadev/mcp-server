@@ -1,0 +1,39 @@
+{
+  "name": "@verbadev/mcp-server",
+  "version": "0.1.1",
+  "description": "MCP server for Verba translation management",
+  "type": "module",
+  "bin": {
+    "verba-mcp": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  },
+  "files": [
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verbadev/mcp-server.git"
+  },
+  "homepage": "https://github.com/verbadev/mcp-server#readme",
+  "bugs": {
+    "url": "https://github.com/verbadev/mcp-server/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "verba",
+    "translations",
+    "i18n",
+    "localization"
+  ]
+}
